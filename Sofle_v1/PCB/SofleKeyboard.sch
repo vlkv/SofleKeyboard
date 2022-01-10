@@ -1435,14 +1435,10 @@ Wire Wire Line
 	4600 6050 4900 6050
 Wire Wire Line
 	4600 6250 4900 6250
-Text GLabel 5550 4850 2    50   Input ~ 0
+Text GLabel 5320 4850 0    50   Input ~ 0
 SW25A
-Text GLabel 6100 4700 0    50   Input ~ 0
+Text GLabel 5320 4650 0    50   Input ~ 0
 SW25B
-Wire Wire Line
-	6100 4700 6100 4850
-Wire Wire Line
-	5500 4850 5550 4850
 Text GLabel 3850 2500 2    50   Input ~ 0
 ENCA
 Text GLabel 3850 2600 2    50   Input ~ 0
@@ -1474,4 +1470,229 @@ Text Label 3350 4550 0    50   ~ 0
 i2c_d
 Text Label 3300 4200 0    50   ~ 0
 i2c_c
+$Comp
+L sk6812mini_led:SK6812MINI_LED D31
+U 1 1 61DF815A
+P 1700 7010
+F 0 "D31" H 1640 7020 50  0000 L CNN
+F 1 "SK6812MINI" H 1510 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 1750 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1800 6635 50  0001 L TNN
+	1    1700 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini_led:SK6812MINI_LED D32
+U 1 1 61DFB69F
+P 2300 7010
+F 0 "D32" H 2220 7030 50  0000 L CNN
+F 1 "SK6812MINI" H 2110 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 2350 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2400 6635 50  0001 L TNN
+	1    2300 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini_led:SK6812MINI_LED D33
+U 1 1 61DFE6B6
+P 2900 7010
+F 0 "D33" H 2830 7010 50  0000 L CNN
+F 1 "SK6812MINI" H 2710 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 2950 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3000 6635 50  0001 L TNN
+	1    2900 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini_led:SK6812MINI_LED D34
+U 1 1 61E0164B
+P 3500 7010
+F 0 "D34" H 3430 7030 50  0000 L CNN
+F 1 "SK6812MINI" H 3310 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 3550 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3600 6635 50  0001 L TNN
+	1    3500 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini_led:SK6812MINI_LED D35
+U 1 1 61E0450F
+P 4100 7010
+F 0 "D35" H 4030 7030 50  0000 L CNN
+F 1 "SK6812MINI" H 3910 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 4150 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4200 6635 50  0001 L TNN
+	1    4100 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini_led:SK6812MINI_LED D36
+U 1 1 61E0744A
+P 4700 7010
+F 0 "D36" H 4620 7010 50  0000 L CNN
+F 1 "SK6812MINI" H 4510 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 4750 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 6635 50  0001 L TNN
+	1    4700 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini_led:SK6812MINI_LED D37
+U 1 1 61E0A91F
+P 5300 7010
+F 0 "D37" H 5230 7010 50  0000 L CNN
+F 1 "SK6812MINI" H 5110 7470 50  0001 L CNN
+F 2 "footprints:YS-SK6812MINI-E_backlight" H 5350 6710 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5400 6635 50  0001 L TNN
+	1    5300 7010
+	-1   0    0    1   
+$EndComp
+$Comp
+L SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue #PWR016
+U 1 1 61E35F4D
+P 1370 6770
+F 0 "#PWR016" H 1370 6520 50  0001 C CNN
+F 1 "GND" H 1375 6597 50  0000 C CNN
+F 2 "" H 1370 6770 50  0001 C CNN
+F 3 "" H 1370 6770 50  0001 C CNN
+	1    1370 6770
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5500 6910
+Text GLabel 1500 7110 0    50   Input ~ 0
+LED
+$Comp
+L SofleKeyboard-rescue:VCC-Lily58-cache-Lily58_Pro-rescue #PWR015
+U 1 1 61E6511F
+P 1370 7260
+F 0 "#PWR015" H 1370 7110 50  0001 C CNN
+F 1 "VCC" H 1387 7433 50  0000 C CNN
+F 2 "" H 1370 7260 50  0001 C CNN
+F 3 "" H 1370 7260 50  0001 C CNN
+	1    1370 7260
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1370 6770 1500 6770
+Wire Wire Line
+	1900 6910 2000 6910
+Wire Wire Line
+	2000 6910 2000 7110
+Wire Wire Line
+	2000 7110 2100 7110
+Wire Wire Line
+	2500 6910 2600 6910
+Wire Wire Line
+	2600 6910 2600 7110
+Wire Wire Line
+	2600 7110 2700 7110
+Wire Wire Line
+	3100 6910 3200 6910
+Wire Wire Line
+	3200 6910 3200 7110
+Wire Wire Line
+	3200 7110 3300 7110
+Wire Wire Line
+	3700 6910 3800 6910
+Wire Wire Line
+	3800 6910 3800 7110
+Wire Wire Line
+	3800 7110 3900 7110
+Wire Wire Line
+	4300 6910 4400 6910
+Wire Wire Line
+	4400 6910 4400 7110
+Wire Wire Line
+	4400 7110 4500 7110
+Wire Wire Line
+	4900 6910 5000 6910
+Wire Wire Line
+	5000 6910 5000 7110
+Wire Wire Line
+	5000 7110 5100 7110
+Wire Wire Line
+	1500 6910 1500 6770
+Connection ~ 1500 6770
+Wire Wire Line
+	1500 6770 2100 6770
+Wire Wire Line
+	1900 7110 1900 7260
+Wire Wire Line
+	1370 7260 1900 7260
+Connection ~ 1900 7260
+Wire Wire Line
+	1900 7260 2500 7260
+Wire Wire Line
+	2100 6910 2100 6770
+Connection ~ 2100 6770
+Wire Wire Line
+	2100 6770 2700 6770
+Wire Wire Line
+	2500 7110 2500 7260
+Connection ~ 2500 7260
+Wire Wire Line
+	2500 7260 3100 7260
+Wire Wire Line
+	2700 6910 2700 6770
+Connection ~ 2700 6770
+Wire Wire Line
+	2700 6770 3300 6770
+Wire Wire Line
+	3100 7110 3100 7260
+Connection ~ 3100 7260
+Wire Wire Line
+	3100 7260 3700 7260
+Wire Wire Line
+	3300 6910 3300 6770
+Connection ~ 3300 6770
+Wire Wire Line
+	3300 6770 3900 6770
+Wire Wire Line
+	3700 7110 3700 7260
+Connection ~ 3700 7260
+Wire Wire Line
+	3700 7260 4300 7260
+Wire Wire Line
+	3900 6910 3900 6770
+Connection ~ 3900 6770
+Wire Wire Line
+	3900 6770 4500 6770
+Wire Wire Line
+	4300 7110 4300 7260
+Connection ~ 4300 7260
+Wire Wire Line
+	4300 7260 4900 7260
+Wire Wire Line
+	4500 6910 4500 6770
+Connection ~ 4500 6770
+Wire Wire Line
+	4900 7110 4900 7260
+Connection ~ 4900 7260
+Wire Wire Line
+	5100 6770 5100 6910
+Wire Wire Line
+	4500 6770 5100 6770
+Wire Wire Line
+	5500 7260 5500 7110
+Wire Wire Line
+	4900 7260 5500 7260
+$Comp
+L SofleKeyboard-rescue:SW_PUSH-Lily58-cache-Lily58_Pro-rescue SW31
+U 1 1 620025C2
+P 5800 4850
+F 0 "SW31" H 5800 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 4750 50  0000 C CNN
+F 2 "SofleKeyboard-footprint:CherryMX_Hotswap" H 5800 4850 50  0001 C CNN
+F 3 "" H 5800 4850 50  0000 C CNN
+	1    5800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5320 4850 5500 4850
+Connection ~ 5500 4850
+Wire Wire Line
+	5320 4650 6100 4650
+Wire Wire Line
+	6100 4650 6100 4850
+Connection ~ 6100 4850
 $EndSCHEMATC

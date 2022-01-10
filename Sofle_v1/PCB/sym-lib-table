@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name SofleKeyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/SofleKeyboard-rescue.lib)(options "")(descr ""))
   (lib (name SofleKeyboard)(type Legacy)(uri ${KIPRJMOD}/SofleKeyboard.lib)(options "")(descr ""))
+  (lib (name sk6812mini_led)(type Legacy)(uri /home/vitvlkv/SofleKeyboard/symbols/sk6812mini_led.lib)(options "")(descr ""))
 )
