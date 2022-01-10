@@ -302,14 +302,10 @@ Wire Wire Line
 	2850 6050 3150 6050
 Wire Wire Line
 	2850 6250 3150 6250
-Text GLabel 6350 6050 2    50   Input ~ 0
+Text GLabel 6210 6050 0    50   Input ~ 0
 SW25A
-Text GLabel 6900 5900 0    50   Input ~ 0
+Text GLabel 6220 5840 0    50   Input ~ 0
 SW25B
-Wire Wire Line
-	6900 5900 6900 6050
-Wire Wire Line
-	6300 6050 6350 6050
 Text GLabel 2400 1250 2    50   Input ~ 0
 ENCA
 Text GLabel 2400 1350 2    50   Input ~ 0
@@ -2645,4 +2641,23 @@ Wire Wire Line
 	4400 2400 4950 2400
 Wire Wire Line
 	4950 2400 4950 2700
+Wire Wire Line
+	6300 6050 6210 6050
+Connection ~ 6300 6050
+Wire Wire Line
+	6220 5840 6900 5840
+Wire Wire Line
+	6900 5840 6900 6050
+Connection ~ 6900 6050
+$Comp
+L SofleKeyboard:SW_PUSH-MX_W_LED SW31
+U 1 1 61E30679
+P 6600 6050
+F 0 "SW31" H 6600 6200 50  0000 C CNN
+F 1 "SW_PUSH-MX_W_LED" H 6600 5950 50  0001 C CNN
+F 2 "footprints:cherry_mx" H 6600 6050 50  0001 C CNN
+F 3 "" H 6600 6050 50  0000 C CNN
+	1    6600 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
